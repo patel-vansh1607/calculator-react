@@ -1,4 +1,4 @@
-[![Project Banner](./src//images/readme-project-banner-01.png)](https://to-do-list-two-umber-81.vercel.app/)
+[![Project Banner](./src//images/readme-project-banner-01.png)](https://calculator-reactt.vercel.app/)
 ---
 # 🚀 **Calculator App**  
 > _A website where user can use the calculator to perform simple arithmetic problems_
@@ -15,10 +15,10 @@
 ## 📦 **Installation**
 ```bash
 # Clone the repo
- git clone https://github.com/patel-vansh1607/to-do-list
+ git clone https://github.com/patel-vansh1607/calculator-react
 
 # Navigate into the project
- cd to-do-list
+ cd calculator-react
 
 # Install dependencies
  npm install
