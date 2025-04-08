@@ -6,3 +6,10 @@
     justify-content: center;
     background:linear-gradient(140deg, rgb(36, 36, 223), rgb(7, 7, 166));
 }
+
+.calculator{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
