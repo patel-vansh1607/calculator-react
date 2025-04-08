@@ -32,6 +32,11 @@ const Calculator = () => {
                         <input type="button" value="3"/>
                         <input type="button" value="-"/>
                     </div>
+                    <div>
+                        <input type="button" value="00"/>
+                        <input type="button" value="0"/>
+                        <input type="button" value="="/>
+                    </div>
                 </div>
             </form>
         </div>
