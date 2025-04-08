@@ -6,7 +6,7 @@ const Calculator = () => {
     <div className="container">
         <div className="calculator">
             <form action="">
-                <div>
+                <div  className="display">
                     <input type="text"/>
                     <div>
                         <input type="button" value="AC"/>
