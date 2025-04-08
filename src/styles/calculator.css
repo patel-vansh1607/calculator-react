@@ -27,4 +27,12 @@ form input{
     cursor: pointer;
 }
 
-form input[type = "button"]
+form input[type = "button"]{
+    background-color: blueviolet;
+}
+
+.form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 15px 0px;
+}
