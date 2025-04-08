@@ -1,38 +1,58 @@
-.container{
-    width: 100%;
-    height: 100vh;
+.container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background:linear-gradient(140deg, rgb(36, 36, 223), rgb(7, 7, 166));
-}
-
-.calculator{
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  
+  .calculator {
+    background: #1e1e2f;
     padding: 20px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-form input{
-    border: none;
-    outline: 0;
-    width: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #aaa;
+  }
+  
+  .display input {
+    width: 100%;
     height: 60px;
-    font-size: 16px;
-    background-color: rgb(91, 91, 151);
-    margin: 2px;
+    margin-bottom: 10px;
+    border: none;
     border-radius: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    background-color: #27293d;
     color: white;
-    font-weight: bolder;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  input[type="button"] {
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3e3f5e;
+    color: white;
     cursor: pointer;
-}
-
-form input[type = "button"]{
-    background-color: blueviolet;
-}
-
-.form .display{
-    display: flex;
-    justify-content: flex-end;
-    margin: 5px 0px 15px 0px;
-}
+    transition: 0.2s ease;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #5a5c8d;
+  }
+  
+  .equal {
+    grid-column: span 2;
+    background-color: #ff6b6b;
+  }
+  
+  .equal:hover {
+    background-color: #ff4c4c;
+  }
+  
