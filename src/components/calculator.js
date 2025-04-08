@@ -8,6 +8,11 @@ const Calculator = () => {
             <form action="">
                 <div>
                     <input type="text"/>
+                    <div>
+                        <input type="button" value="AC"/>
+                        <input type="button" value="DE"/>
+                        <input type="button" value="."/>
+                    </div>
                 </div>
             </form>
         </div>
